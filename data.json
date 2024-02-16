@@ -1,0 +1,143 @@
+{
+    
+    "children": [
+        {
+            "name": "Home"
+        },
+        {
+            "name":"Services & Solutions",
+            "children": [
+                {
+                    "name": "Digital Transformation & Development",
+                    "children": [
+                        {
+                            "name": "Design & User Experience"
+                        },
+                        {
+                            "name": "Software Development & Architecture"
+                        },
+                        {
+                            "name": "Agile Teams & Project Mangement"
+                        },
+                        {
+                            "name": "Application Lifecycle Management"
+                        }
+                    ]
+                },
+                {
+                    "name":"Machine Learning & Artificial Intelligence"
+                },
+                {
+                    "name": "Infrastructure & Cloud",
+                    "children": [
+                        {
+                            "name": "Linux System Engineering"
+                        },
+                        {
+                            "name": "Cloud"
+                        },
+                        {
+                            "name": "Automation"
+                        },
+                        {
+                            "name": "Observability"
+                        },
+                        {
+                            "name": "Kubernetes & Cloud Native"
+                        },
+                        {
+                            "name": "Continuous Integration & Continuous Delivery"
+                        },
+                        {
+                            "name": "Messaging & Streaming"
+                        },
+                        {
+                            "name": "Managed Services & Operations"
+                        }
+                    ]
+                },
+                {
+                    "name":"Security"
+                },
+                {
+                    "name":"Mobility Services"
+                },
+                {
+                    "name": "Solutions",
+                    "children": [
+                        {
+                            "name": "Hitobito"
+                        },
+                        {
+                            "name": "APPUiO"
+                        },
+                        {
+                            "name": "Decidim"
+                        },
+                        {
+                            "name": "Lagoon"
+                        },
+                        {
+                            "name": "3rd Partner Solutions"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Success Stories"
+        },
+        {
+            "name":"Jobs"
+        },
+        {
+            "name": "Insights",
+            "children": [
+                {
+                    "name": "Blog"
+                },
+                {
+                    "name": "Events"
+                },
+                {
+                    "name": "News"
+                },
+                {
+                    "name": "Techlab & Trainings"
+                }
+            ]
+        },
+        {
+            "name": "Puzzle House",
+            "children": [
+                {
+                    "name": "Über Uns"
+                },
+                {
+                    "name": "Team"
+                },
+                {
+                    "name": "Standorte & Kontakt"
+                },
+                {
+                    "name": "Community"
+                },
+                {
+                    "name": "Hauptsitz Bern"
+                },
+                {
+                    "name": "Niederlassung Zürich"
+                },
+                {
+                    "name": "Niederlassung Basel"
+                },
+                {
+                    "name": "Niederlassung Tübingen"
+                },
+                {
+                    "name": "Co-Working & Workshopraum"
+                }
+            ]
+        }
+    ]
+}

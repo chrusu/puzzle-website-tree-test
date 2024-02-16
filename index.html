@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Puzzle ITC</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+        <script src="listitem.js"></script>
+        <script src="list.js"></script>
+    </head>
+    <body>
+        <div class="page">
+            <header role="banner">
+              <div class="title" id="id_website_title">Puzzle ITC </div>
+              <div class="tagline">Using a Tree widget pattern for navigation links</div>
+            </header>
+            <div class="body">
+              <nav aria-label="Mythical University">
+                <navigation-list id="list"></navigation-list>
+                
+              </nav>
+
+
+              <section class="main" aria-labelledby="id_website_title id_page_title">
+                <h1 class="page_title" id="id_page_title">Mythical University</h1>
+                <div class="content">
+                  <p></p>
+                </div>
+              </section>
+            </div>
+
+            <footer role="contentinfo">Mythical University footer information</footer>
+          </div>
+          <script>
+            fetch('./data.json')
+    .then((response) => response.json())
+    .then((json) => {
+        console.log(json);
+        let list = document.getElementById("list");
+        list.setAttribute('data', JSON.stringify(json));
+    });
+        </script>
+    </body>
+</html>
